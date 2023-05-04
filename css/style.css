@@ -231,7 +231,7 @@ header.sticky {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(340px, auto)
+    minmax(400px, auto)
   ); /* Image Size Fix*/
   grid-gap: 2rem;
   align-items: center;
@@ -255,14 +255,14 @@ header.sticky {
   font-weight: 500;
   color: var(--bg-color);
   left: 15px;
-  bottom: 60px;
+  bottom: 170px;
 }
 .col-content p {
   position: absolute;
   font-size: 15px;
   color: var(--bg-color);
   left: 15px;
-  bottom: 30px;
+  bottom: 50px;
   letter-spacing: 2px;
 }
 .col-content :hover {
